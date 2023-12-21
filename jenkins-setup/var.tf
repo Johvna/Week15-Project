@@ -12,7 +12,7 @@ variable "profile" {
 
 variable aws_instance_type {
   description = "This is aws ec2 type "
-  default = "t2.medium"
+  default = "t2.micro"
   type        = string
 }
 
